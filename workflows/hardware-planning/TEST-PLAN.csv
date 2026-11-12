@@ -1,0 +1,7 @@
+id,check,expected,observed,evidence,status
+SW-01,Input reaches the software,Documented input received,,,NOT_RUN
+SW-02,Software produces the response,Response meets the interaction spec,,,NOT_RUN
+SW-03,Failure path,Recoverable failure is visible,,,NOT_RUN
+HW-01,Power and interface compatibility,Verified from actual parts and datasheets,,,NOT_RUN
+HW-02,Design checks,Actual reports reviewed when design files exist,,,NOT_RUN
+SYS-01,Complete interaction,Measured against defined success condition,,,NOT_RUN

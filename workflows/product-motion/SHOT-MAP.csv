@@ -1,0 +1,6 @@
+shot,start_seconds,end_seconds,purpose,visible_action,camera,review_still,status
+01,0,3,Introduce the object,,,frame-01.png,NOT_REVIEWED
+02,3,6,Show the key detail,,,frame-02.png,NOT_REVIEWED
+03,6,9,Explain the interaction,,,frame-03.png,NOT_REVIEWED
+04,9,12,Show the result,,,frame-04.png,NOT_REVIEWED
+05,12,15,Resolve the film,,,frame-05.png,NOT_REVIEWED

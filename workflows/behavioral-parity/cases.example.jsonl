@@ -1,0 +1,3 @@
+{"kind":"fictional-format-example","id":"empty-query","corpus":"practice-v1","request":{"query":"","limit":10,"offset":0},"expected":{"ids":["n2","n1"]}}
+{"kind":"fictional-format-example","id":"ordinary-spaces","corpus":"practice-v1","request":{"query":"  ","limit":10,"offset":0},"expected":{"ids":["n2","n1"]}}
+{"kind":"fictional-format-example","id":"wrong-query-type","corpus":"practice-v1","request":{"query":17,"limit":10,"offset":0},"expected":{"error_category":"INVALID_QUERY"}}

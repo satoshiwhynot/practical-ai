@@ -1,0 +1,33 @@
+{
+  "kind": "fictional-practice-contract",
+  "fixtures": {
+    "products.csv": {
+      "valid": 2,
+      "invalid": 0
+    },
+    "quoted.csv": {
+      "valid": 1,
+      "invalid": 0,
+      "first_name": "Tea, green"
+    },
+    "invalid.csv": {
+      "valid": 0,
+      "invalid": 1
+    },
+    "header-only.csv": {
+      "valid": 0,
+      "invalid": 0
+    },
+    "empty.csv": {
+      "error": "EMPTY_FILE"
+    },
+    "malformed.csv": {
+      "error": "MALFORMED_CSV"
+    },
+    "replacement.csv": {
+      "valid": 1,
+      "invalid": 0
+    }
+  },
+  "unresolved": "Whether saving rejects the whole import or accepts confirmed valid rows must be agreed in the host app."
+}
