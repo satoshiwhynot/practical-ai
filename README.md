@@ -1,3 +1,5 @@
+[![Satoshi 001 — Practical AI for solo creators](https://raw.githubusercontent.com/satoshiwhynot/satoshiwhynot/main/assets/satoshi-banner.png)](https://github.com/satoshiwhynot)
+
 # Practical AI
 
 ### Useful workflows. A clear place to start.
