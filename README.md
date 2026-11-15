@@ -8,7 +8,7 @@ By [satoshi 001](https://x.com/satoshiwhynot). Start with something you can try,
 
 <a href="tools/framekit"><img src="tools/framekit/docs/preview.svg" alt="Framekit: an overview of the local contact-sheet maker" width="100%"></a>
 
-### [Framekit →](tools/framekit)
+### [Framekit →](https://github.com/satoshiwhynot/framekit)
 
 Turn image variations into a numbered contact sheet. Reorder frames, add a review note and export a PNG. Runs locally in your browser, with no upload or installation.
 
@@ -16,7 +16,7 @@ Turn image variations into a numbered contact sheet. Reorder frames, add a revie
 
 <a href="tools/shotplan"><img src="tools/shotplan/docs/preview.svg" alt="Shotplan: four-shot sample with a fourteen-second runtime and a fictional USD 5.75 budget" width="100%"></a>
 
-### [Shotplan →](tools/shotplan)
+### [Shotplan →](https://github.com/satoshiwhynot/shotplan)
 
 Compile a CSV shot list into an offline storyboard, editable prompts and a budget summary. Python standard library; no model access required.
 
@@ -55,6 +55,8 @@ Each guide includes a specific task, editable files and review criteria.
 [**Hammerhead Cutaway**](showcase/hammerhead-cutaway) — my mechanical-shark adaptation of the open-source Cutaway project. [Watch the published demonstration](https://x.com/satoshiwhynot/status/2119444847614431315). Its source bundle is not included here; the page identifies the upstream authors and the adaptation.
 
 ## Reuse and contribute
+
+[Framekit](https://github.com/satoshiwhynot/framekit) and [Shotplan](https://github.com/satoshiwhynot/shotplan) have standalone repositories. The copies under `tools/` are bundled with this library for a single-download workflow; they reflect the 16 November 2026 release. Use the standalone repositories for later updates.
 
 The tools include their own MIT licenses. Workflow materials retain the origin and scope described in [provenance and credits](PROVENANCE.md). Fictional examples, planning templates and published demonstrations are identified on their own pages.
 
