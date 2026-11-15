@@ -1,15 +1,21 @@
-# Start with one task
+# Start with one useful result
 
-You can use the prompts by opening a file and copying it. No repository setup is needed.
-
-| If you have… | Try… | Your first useful output |
+| If you have… | Try… | First result |
 | --- | --- | --- |
-| A video idea | [AI film](workflows/ai-film/) | A shot plan to review before generation |
-| Notes or an interview | [Content studio](workflows/content-studio/) | A source brief with evidence for each claim |
-| An existing app to improve | [Coding agents](workflows/coding-agents/) | A bounded task and acceptance criteria |
-| A project lost between chats | [Second Brain](workflows/second-brain/) | A current-state page and source-linked decisions |
-| An app feature you may inspect | [Behavioral parity](workflows/behavioral-parity/) | One observed input/output case and a versioned spec |
-| A product to explain visually | [Product motion](workflows/product-motion/) | A shot map and review criteria |
-| A device idea | [Hardware planning](workflows/hardware-planning/) | A spec for one interaction and a list of unknowns |
+| A folder of images or generated variations | [Framekit](tools/framekit) | A numbered contact-sheet PNG |
+| A short-film idea | [Shotplan](tools/shotplan) | A storyboard, prompts and budget estimate |
+| A product to explain | [Framekit launch example](workflows/content-studio/examples/framekit-launch.md) | A source brief and three grounded launch drafts |
+| A project lost between sessions | [Second Brain](workflows/second-brain) | Current-state notes with source-linked decisions |
+| An app task to delegate | [Coding agents](workflows/coding-agents) | A bounded task, fixtures and acceptance criteria |
 
-Copy only the workflow you need. Replace placeholder fields before running commands or delegating work.
+## In two minutes
+
+Download with **Code → Download ZIP** and extract the folder. Open `tools/framekit/index.html`, load the sample set and export a sheet.
+
+For Shotplan, use Python 3.9+ and follow its [quick start](tools/shotplan#quick-start). Browsing the other Markdown guides needs no setup.
+
+## For deeper work
+
+The [AI film](workflows/ai-film), [content studio](workflows/content-studio), [product motion](workflows/product-motion), [behavioral parity](workflows/behavioral-parity) and [hardware planning](workflows/hardware-planning) folders contain editable prompts and planning files. Copy one folder, replace the bracketed inputs and review the output against the included criteria.
+
+Model access and paid generation are separate from these local tools. Check a guide's scope before using it as a production plan.

@@ -20,3 +20,11 @@ This collection packages Satoshi's existing writing and working material into re
 - [Cutaway](https://github.com/Nyxera0x/cutaway): upstream 3D project. Its code retains its own license.
 
 Model and brand names identify tools discussed; they do not imply affiliation. Historical articles may reference model versions whose access must be checked in your own account.
+
+## Local tools and worked examples — 16 November 2026
+
+Framekit and Shotplan are new small tools built with AI assistance for this repository. Their code and original example material carry separate MIT licenses inside the tool folders. No code was copied from lubluniky's projects. His profile and repository presentation informed the editorial direction, not the implementation.
+
+Framekit's six form studies are drawn locally with Canvas. The shot list and prices in Shotplan are fictional planning inputs; the generated files were compiled locally. Preview SVGs illustrate the interfaces and are not screenshots.
+
+The completed newsletter memory is a written answer key derived from the two existing fictional starter sources. The Framekit content-studio example contains unpublished editorial drafts grounded in the tool's source. These examples do not claim a model run, audience results or a paid production outcome.

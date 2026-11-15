@@ -11,3 +11,7 @@
 The working kit includes positioning questions, source interviews, five prompts, a delivery-economics calculation and a first-month plan. Choose your own audience or client work as the primary route.
 
 Keep factual claims attached to sources. Financial inputs are hypothetical illustrations, not rates or earnings claims.
+
+## A filled example
+
+[Framekit launch](examples/framekit-launch.md) includes a product source brief, three unpublished drafts and a claim-by-claim review. Use it to see how inspectable product facts become content without invented performance claims.

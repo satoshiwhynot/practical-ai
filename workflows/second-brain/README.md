@@ -32,3 +32,7 @@ The agent should recover the approved current decision and admit that nobody has
 Copy the vault into a separate folder. Replace the fictional sources and project name. Process one source at a time and review the edits.
 
 This is a file structure and prompts, not a model integration. The structure and links are checked; no Claude Code run or model-accuracy result is claimed. File/tool permissions must enforce any access restrictions you need.
+
+## Compare with a completed example
+
+The [written answer key](completed-example/) shows the reconciled current state, decision ledger and next-session handoff. Keep it outside your agent's test vault. It is a worked editorial example, not evidence of a Claude Code run.

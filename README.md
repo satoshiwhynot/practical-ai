@@ -1,60 +1,63 @@
-[![Satoshi 001 — Practical AI for solo creators](https://raw.githubusercontent.com/satoshiwhynot/satoshiwhynot/main/assets/satoshi-banner.png)](https://github.com/satoshiwhynot)
-
 # Practical AI
 
-### Useful workflows. A clear place to start.
+**Small tools. Useful workflows.** Open working material for people who make visual things with AI.
 
-Prompts, starter kits and project templates from **[satoshi 001](https://x.com/satoshiwhynot)**.
-For solo creators turning ideas into something they can use and show.
+By [satoshi 001](https://x.com/satoshiwhynot). Start with something you can try, then use the guides to take it further.
 
-**[Start here](START-HERE.md)** · **[See the work](#from-the-work)** · **[On X ↗](https://x.com/satoshiwhynot)**
+## Tools
 
-## Choose your next task
+<a href="tools/framekit"><img src="tools/framekit/docs/preview.svg" alt="Framekit: an overview of the local contact-sheet maker" width="100%"></a>
 
-| I want to… | Start here | Take away |
-| :--- | :--- | :--- |
-| Make a short AI film | **[AI film workflow](workflows/ai-film/)** | Ten production prompts, a shot plan and a cost ledger |
-| Create content from my own material | **[One-person content studio](workflows/content-studio/)** | Positioning worksheet, source brief and writing prompts |
-| Get dependable work from a coding agent | **[Coding-agent workbench](workflows/coding-agents/)** | Task brief, CSV fixtures, expected results and evidence templates |
-| Give Claude a project memory | **[Second Brain](workflows/second-brain/)** | A small Markdown vault, fictional practice sources and session prompts |
-| Check whether a rebuild behaves the same | **[Behavioral parity](workflows/behavioral-parity/)** | Spec, observation ledger, example case format and comparison report |
-| Plan a product animation | **[Product motion](workflows/product-motion/)** | Creative brief, shot map and review prompts |
-| Scope a first hardware prototype | **[Hardware planning](workflows/hardware-planning/)** | Requirements, BOM, decisions and test planning |
+### [Framekit →](tools/framekit)
+
+Turn image variations into a numbered contact sheet. Reorder frames, add a review note and export a PNG. Runs locally in your browser, with no upload or installation.
+
+**Try it:** download the ZIP, open `tools/framekit/index.html` and click **Try a sample set**.
+
+<a href="tools/shotplan"><img src="tools/shotplan/docs/preview.svg" alt="Shotplan: four-shot sample with a fourteen-second runtime and a fictional USD 5.75 budget" width="100%"></a>
+
+### [Shotplan →](tools/shotplan)
+
+Compile a CSV shot list into an offline storyboard, editable prompts and a budget summary. Python standard library; no model access required.
+
+```sh
+git clone https://github.com/satoshiwhynot/practical-ai.git
+cd practical-ai/tools/shotplan
+python3 shotplan.py examples/film.csv --title "A shape takes form" --out build
+```
+
+Open `build/storyboard.html`. The [included example](tools/shotplan/examples/output) contains four planned shots and all three generated outputs. Example prices are fictional; the tool does not submit generation jobs.
+
+## Work through an example
+
+| Start with | Inspect the result | What it teaches |
+| --- | --- | --- |
+| [Four-shot film plan](tools/shotplan/examples/film.csv) | [Storyboard, prompts and budget](tools/shotplan/examples/output) | Turn a creative idea into a reviewable production plan |
+| [Framekit product facts](workflows/content-studio/examples/framekit-launch.md#source-brief) | [Launch drafts and claim review](workflows/content-studio/examples/framekit-launch.md#drafts) | Write from inspectable features, without inventing performance results |
+| [Two conflicting newsletter sources](workflows/second-brain/starter-vault/sources) | [Completed project memory](workflows/second-brain/completed-example) | Preserve an old decision while making the approved current state clear |
+
+## Workflow library
+
+Each guide includes a specific task, editable files and review criteria.
+
+| I want to… | Open |
+| --- | --- |
+| Plan an AI short film | [Production prompts, shot planning and continuity](workflows/ai-film) |
+| Write content from my own material | [One-person content studio](workflows/content-studio) |
+| Give a coding agent a clear task | [Briefs, CSV fixtures and expected results](workflows/coding-agents) |
+| Keep project memory between sessions | [Second Brain](workflows/second-brain) |
+| Compare the behavior of a rebuild | [Behavioral parity planning kit](workflows/behavioral-parity) |
+| Plan a product animation | [Product-motion brief and shot map](workflows/product-motion) |
+| Scope a hardware prototype | [Requirements, BOM and test planning](workflows/hardware-planning) |
 
 ## From the work
 
-### [Hammerhead Cutaway](showcase/hammerhead-cutaway/)
+[**Hammerhead Cutaway**](showcase/hammerhead-cutaway) — my mechanical-shark adaptation of the open-source Cutaway project. [Watch the published demonstration](https://x.com/satoshiwhynot/status/2119444847614431315). Its source bundle is not included here; the page identifies the upstream authors and the adaptation.
 
-My mechanical-shark adaptation of the MIT-licensed [Cutaway](https://github.com/Nyxera0x/cutaway) project.
-Watch the sliding hammer lobes, optics and exploded view in the **[original demonstration on X ↗](https://x.com/satoshiwhynot/status/2119444847614431315)**.
+## Reuse and contribute
 
-### [AI film workflow](workflows/ai-film/)
+The tools include their own MIT licenses. Workflow materials retain the origin and scope described in [provenance and credits](PROVENANCE.md). Fictional examples, planning templates and published demonstrations are identified on their own pages.
 
-The working prompts behind my Claude Code/Codex + Seedance guide.
-**[Read the published guide ↗](https://x.com/satoshiwhynot/status/2118633855150182759)**, then start with a shot plan.
+See [Start here](START-HERE.md) for a short path through the files, [verification](VERIFICATION.md) for what was checked, and [contributing](CONTRIBUTING.md) to suggest a focused improvement.
 
-## How to use the files
-
-1. Pick one task from the table.
-2. Open its README and check what is included.
-3. Copy that folder into a separate project, or use **Code → Download ZIP**.
-4. Replace bracketed fields with your material.
-5. Review the output against the acceptance criteria and record what needs work.
-
-Browsing and copying the Markdown needs no installation. Model access, paid generation and tool integrations are separate.
-
-## Read the labels
-
-| Label | Meaning |
-| :--- | :--- |
-| **Template** | A brief, prompt or checklist to adapt; not a measured result |
-| **Practice example** | Fictional input for learning the workflow |
-| **Showcase** | A published demonstration with its source and attribution |
-
-The REA-inspired search scenario is a practice example. Its source article's test counts and timings were illustrative. The hardware kit contains planning files, not a validated board design. The 3D showcase links the published demonstration; its source bundle is not included in this repository.
-
-[Provenance and credits](PROVENANCE.md) · [Contributing](CONTRIBUTING.md)
-
----
-
-**[satoshi 001 on X ↗](https://x.com/satoshiwhynot)** · Practical AI for solo creators.
+Built with AI assistance. [Follow the process on X ↗](https://x.com/satoshiwhynot)

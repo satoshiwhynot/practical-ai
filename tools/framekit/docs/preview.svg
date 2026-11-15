@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 650" role="img" aria-labelledby="title"><title id="title">Framekit — interface overview with synthetic sample images</title><rect width="1120" height="650" fill="#f4f3ee"/>
+<text x="45" y="50" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#20251f" >framekit</text>
+<text x="160" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#71766c" >/ 001</text>
+<text x="1075" y="48" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#71766c" text-anchor="end" letter-spacing="1">INTERFACE OVERVIEW</text>
+<path d="M45 74 h1030" stroke="#d9dcd1"/>
+<text x="45" y="116" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#71766c" letter-spacing="2">A SMALL TOOL FOR VISUAL PEOPLE</text>
+<text x="45" y="173" font-family="Arial, sans-serif" font-size="46" font-weight="400" fill="#20251f" >See the whole set.</text>
+<text x="45" y="205" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#71766c" >Numbered contact sheets. Local images. One clear review.</text>
+<path d="M45 234 h1030" stroke="#d9dcd1"/>
+<rect x="45" y="258" width="232" height="116" rx="3" fill="#f4f3ee" stroke="#a8afa0"/>
+<text x="161" y="290" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#20251f" text-anchor="middle">+</text>
+<text x="161" y="317" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#20251f" text-anchor="middle">Drop your images here</text>
+<rect x="66" y="335" width="190" height="26" rx="3" fill="#20251f" stroke="none"/>
+<text x="161" y="353" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="white" text-anchor="middle">Choose images</text>
+<text x="45" y="405" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#20251f" >Sheet title</text>
+<rect x="45" y="417" width="232" height="34" rx="3" fill="#fafbf6" stroke="#d9dcd1"/>
+<text x="57" y="439" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#20251f" >Form studies / light &amp; material</text>
+<text x="45" y="478" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#20251f" >Columns</text>
+<text x="167" y="478" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#20251f" >Frame shape</text>
+<rect x="45" y="489" width="110" height="32" rx="3" fill="#fafbf6" stroke="#d9dcd1"/>
+<rect x="167" y="489" width="110" height="32" rx="3" fill="#fafbf6" stroke="#d9dcd1"/>
+<text x="57" y="510" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#20251f" >3</text>
+<text x="179" y="510" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#20251f" >Landscape</text>
+<rect x="45" y="544" width="232" height="38" rx="3" fill="#20251f" stroke="none"/>
+<text x="161" y="568" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Export PNG ↓</text>
+<text x="45" y="613" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#71766c" >Your images stay on this device.</text>
+<rect x="310" y="258" width="765" height="340" rx="3" fill="#e8e9e1" stroke="#d9dcd1"/>
+<rect x="331" y="278" width="723" height="300" rx="3" fill="#fafaf5" stroke="none"/>
+<text x="358" y="303" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#687e30" letter-spacing="1">FRAMEKIT / CONTACT SHEET</text>
+<text x="358" y="331" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#20251f" >Form studies / light &amp; material</text>
+<text x="358" y="351" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#71766c" >A synthetic sample set. Compare palette, silhouette and contrast.</text>
+<rect x="358" y="369" width="203" height="65" rx="3" fill="#c9d3b0" stroke="none"/>
+<ellipse cx="460" cy="406" rx="21" ry="24" fill="#294338" transform="rotate(0 460 406)"/>
+<rect x="456" y="379" width="5" height="45" rx="3" fill="#ffffff55" stroke="none"/>
+<text x="358" y="448" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#555e4b" >01  form-study-01.png</text>
+<rect x="579" y="369" width="203" height="65" rx="3" fill="#e2cba6" stroke="none"/>
+<ellipse cx="681" cy="406" rx="21" ry="24" fill="#8d5839" transform="rotate(11 681 406)"/>
+<rect x="679" y="379" width="5" height="45" rx="3" fill="#ffffff55" stroke="none"/>
+<text x="579" y="448" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#555e4b" >02  form-study-02.png</text>
+<rect x="800" y="369" width="203" height="65" rx="3" fill="#c6d6e2" stroke="none"/>
+<ellipse cx="902" cy="406" rx="21" ry="24" fill="#3e546d" transform="rotate(22 902 406)"/>
+<rect x="902" y="379" width="5" height="45" rx="3" fill="#ffffff55" stroke="none"/>
+<text x="800" y="448" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#555e4b" >03  form-study-03.png</text>
+<rect x="358" y="461" width="203" height="65" rx="3" fill="#ddcbc7" stroke="none"/>
+<ellipse cx="460" cy="498" rx="21" ry="24" fill="#694d61" transform="rotate(33 460 498)"/>
+<rect x="462" y="471" width="5" height="45" rx="3" fill="#ffffff55" stroke="none"/>
+<text x="358" y="540" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#555e4b" >04  form-study-04.png</text>
+<rect x="579" y="461" width="203" height="65" rx="3" fill="#dad5b1" stroke="none"/>
+<ellipse cx="681" cy="498" rx="21" ry="24" fill="#60673b" transform="rotate(44 681 498)"/>
+<rect x="685" y="471" width="5" height="45" rx="3" fill="#ffffff55" stroke="none"/>
+<text x="579" y="540" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#555e4b" >05  form-study-05.png</text>
+<rect x="800" y="461" width="203" height="65" rx="3" fill="#ccd3ce" stroke="none"/>
+<ellipse cx="902" cy="498" rx="21" ry="24" fill="#445f59" transform="rotate(55 902 498)"/>
+<rect x="908" y="471" width="5" height="45" rx="3" fill="#ffffff55" stroke="none"/>
+<text x="800" y="540" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#555e4b" >06  form-study-06.png</text>
+<text x="310" y="623" font-family="Arial, sans-serif" font-size="9" font-weight="400" fill="#71766c" letter-spacing="1">06 IMAGES / YOUR ORDER</text>
+<text x="1075" y="623" font-family="Arial, sans-serif" font-size="9" font-weight="400" fill="#71766c" text-anchor="end" letter-spacing="1">PNG / 1600 PX</text>
+</svg>

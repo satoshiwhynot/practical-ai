@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Framekit — contact sheets, without the upload</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="wordmark" href="./">framekit<span> / 001</span></a><a href="https://github.com/satoshiwhynot/practical-ai/tree/main/tools/framekit">Source ↗</a></header>
+<main>
+<section class="intro"><p class="eyebrow">A SMALL TOOL FOR VISUAL PEOPLE</p><h1>See the whole set.</h1><p>Turn images into a numbered contact sheet.<br>Compare variations, leave a note, share one frame.</p></section>
+<div class="workspace">
+<aside aria-label="Contact sheet settings">
+<div id="dropzone" class="dropzone"><span class="plus" aria-hidden="true">+</span><strong>Drop your images here</strong><p>PNG, JPEG or WebP · up to 40 images<br>20 MB and 24 megapixels each</p><label class="button primary" for="files">Choose images</label><input id="files" type="file" accept="image/png,image/jpeg,image/webp" multiple></div>
+<button id="demo" class="button quiet">Try a sample set ↗</button>
+<div class="settings">
+<label for="title">Sheet title</label><input id="title" maxlength="80" value="Untitled exploration">
+<div class="two"><div><label for="columns">Columns</label><select id="columns"><option>2</option><option selected>3</option><option>4</option><option>5</option></select></div><div><label for="fit">Image fit</label><select id="fit"><option value="contain">Full image</option><option value="cover">Fill the frame</option></select></div></div>
+<div class="two"><div><label for="ratio">Frame shape</label><select id="ratio"><option value="1">Square</option><option value="1.7777778" selected>Landscape</option><option value="0.75">Portrait</option></select></div><div><label for="theme">Sheet theme</label><select id="theme"><option value="light">Paper</option><option value="dark">Ink</option></select></div></div>
+<label for="labels">Captions</label><select id="labels"><option value="filename">Number + filename</option><option value="number">Number only</option></select>
+<label for="note">Review note <span>optional</span></label><textarea id="note" rows="2" maxlength="180" placeholder="What are we comparing?"></textarea>
+<button id="export" class="button primary" disabled>Export PNG ↓</button><button id="clear" class="button quiet" disabled>Clear the set</button>
+</div><p class="privacy">Runs in your browser. Your images stay on this device.</p>
+</aside>
+<section class="preview-panel" aria-label="Contact sheet preview"><div class="preview-toolbar"><span id="count">NO IMAGES YET</span><span>PNG / 1600 PX</span></div><div class="canvas-wrap"><canvas id="sheet" width="1600" height="1000" aria-label="Preview of your contact sheet"></canvas><div id="empty"><div class="empty-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div><h2>A little perspective.</h2><p>Add your own images or try the sample set.</p></div></div><p id="message" role="status" aria-live="polite">Ready when you are.</p><ol id="image-list" aria-label="Image order"></ol></section>
+</div>
+</main><footer><span>Built by <a href="https://x.com/satoshiwhynot">satoshi 001 ↗</a></span><span>Less switching. More seeing.</span></footer>
+<script src="app.js"></script>
+</body>
+</html>
