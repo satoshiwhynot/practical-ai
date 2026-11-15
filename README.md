@@ -14,6 +14,8 @@ Turn image variations into a numbered contact sheet. Reorder frames, add a revie
 
 **Try it:** download the ZIP, open `tools/framekit/index.html` and click **Try a sample set**.
 
+**[Open the live Framekit demo →](https://satoshiwhynot.github.io/framekit/)**
+
 <a href="tools/shotplan"><img src="tools/shotplan/docs/preview.svg" alt="Shotplan: four-shot sample with a fourteen-second runtime and a fictional USD 5.75 budget" width="100%"></a>
 
 ### [Shotplan →](https://github.com/satoshiwhynot/shotplan)
