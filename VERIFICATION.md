@@ -5,7 +5,7 @@ Release check: 16 November 2026.
 ## Shotplan
 
 - Python 3.9.6: nine unittest cases passed.
-- Sample compiled to four shots, 14 seconds, 11 planned attempts and USD 5.75 estimated generation cost.
+- Sample compiled to four shots, 14 seconds, 10 planned attempts and USD 5.75 estimated generation cost.
 - Generated HTML, Markdown and JSON are committed beside the sample CSV.
 - Numeric validation, duplicate IDs, CSV quoting, output preservation on invalid input and reference path boundaries are covered by tests.
 
